@@ -2,7 +2,7 @@ inspecode:
 
   clang-format:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 7 }
 
   cpd:
     options: [ --skip-lexical-errors ]
@@ -10,50 +10,50 @@ inspecode:
 
   eslint:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 173 }
 
   flow:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   #fortify:
   #  thresholds: { num-issues: 999 }
 
   fossology:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 1 }
 
   grep:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   jscpd:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   jshint:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 132 }
 
   misspell:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 1 }
 
   npm-audit:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   npm-test:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
 
   phpcs:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 696 }
 
   pmd:
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 40 }
 
   prettier:
     auto-fix: true
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 9 }
 
   #understand:
   #  thresholds: { num-issues: 999 }
 
   unused:
     options: [ --single-occurrence, --all-likelihoods ]
-    thresholds: { num-issues: 999 }
+    thresholds: { num-issues: 0 }
